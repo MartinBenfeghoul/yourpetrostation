@@ -1,0 +1,40 @@
+.image {
+    width: 50%;
+    height: auto;
+} 
+
+.image-container {
+    width: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    margin:0;
+    /*height:100vh;*/
+}
+
+.image-top-left {
+    margin-bottom:auto;
+    margin-right:auto;
+    order:0;
+}
+
+.image-top-right {
+    margin-bottom:auto;
+    margin-right:auto;
+    order:0;
+}
+
+.image-bottom-left {
+    margin-bottom:auto;
+    margin-right:auto;
+    order:2;
+}
+
+.image-bottom-right {
+    margin-bottom:auto;
+    margin-right:auto;
+    order:2;
+}
+
+.text {
+    text-align: center;
+}
